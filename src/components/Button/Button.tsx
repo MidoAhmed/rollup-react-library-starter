@@ -1,7 +1,7 @@
 import React from "react";
 import "./Button.scss";
 
-export interface ButtonProps {
+export interface ButtonProps extends React.DetailedHTMLProps<React.ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>{
   label: string;
 }
 
