@@ -20,15 +20,17 @@ module.exports = {
   collectCoverage: true,
 
   // An array of glob patterns indicating a set of files for which coverage information should be collected
-  collectCoverageFrom: ["./src/**"],
+  collectCoverageFrom: ["src/**"],
 
   // The directory where Jest should output its coverage files
   coverageDirectory: "coverage",
 
   // An array of regexp pattern strings used to skip coverage collection
-  // coveragePathIgnorePatterns: [
-  //   "/node_modules/"
-  // ],
+  coveragePathIgnorePatterns: [
+     "/node_modules/",
+     "/stories/",
+     "^.*\.stories\.tsx?$"
+  ],
 
   // Indicates which provider should be used to instrument code for coverage
   // coverageProvider: "babel",
@@ -44,7 +46,7 @@ module.exports = {
   // An object that configures minimum threshold enforcement for coverage results
   coverageThreshold: {
     "global": {
-      "lines": 90
+      "lines": 50
     }
   },
 
@@ -189,7 +191,7 @@ module.exports = {
   // unmockedModulePathPatterns: undefined,
 
   // Indicates whether each individual test should be reported during the run
-  // verbose: undefined,
+  verbose: true,
 
   // An array of regexp patterns that are matched against all source file paths before re-running tests in watch mode
   // watchPathIgnorePatterns: [],

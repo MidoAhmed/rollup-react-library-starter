@@ -36,6 +36,7 @@
   },
   "homepage": "https://github.com/MidoAhmed/rollup-react-library-starter#readme",
   "peerDependencies": {
+    "antd": "^5.4.0",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
   },
