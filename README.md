@@ -18,6 +18,7 @@ Template and quick-starter to create your own modern React libraries using Rollu
 - Support of CSS: For exporting components with style
 - Storybook: For testing our components within the library itself as we design them
 - Supports complicated peer-dependencies
+- Optimizing bundle size: [@rollup/plugin-terser](https://www.npmjs.com/package/@rollup/plugin-terser) A Rollup plugin to generate a minified bundle with terser.
 
 ## Getting started
 
