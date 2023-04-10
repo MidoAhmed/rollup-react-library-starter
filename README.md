@@ -27,6 +27,7 @@ without bothering with configuration and saving time.
 - Optimizing bundle size: [@rollup/plugin-terser](https://www.npmjs.com/package/@rollup/plugin-terser) A Rollup plugin to generate a minified bundle with terser.
 - Automatically externalize peerDependencies in a rollup bundle, thanks to [rollup-plugin-peer-deps-external](https://www.npmjs.com/package/rollup-plugin-peer-deps-external)
 - Eslint
+- Deploy Storybook to GitHub Pages
 ## Getting started
 
 - Copy over the template by cloning this repository and install its dependencies:
@@ -61,6 +62,7 @@ Now, anytime you make a change to your library or the stories, the storybook wil
 - `npm run lint` : runs eslint.
 - `npm run storybook` : runs the host Storybook application locally for quick and easy testing
 - `npm run build-storybook` : builds a static HTML/JS bundle that can easily be hosted on a remote server, so all members of your team can try your components.
+- `npm run deploy-storybook` : build & deploy and Storybook to GitHub Pages
 
 ### Publishing to npm:
 //TODO:
