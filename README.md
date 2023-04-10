@@ -12,12 +12,12 @@ Template and quick-starter to create your own modern React libraries using Rollu
 ## Features
 - [Rollup](https://rollupjs.org/) for bundling
 - Bundles `commonjs` and `es` module formats
-- [React Testing Library](https://testing-library.com/) & [Jest](https://facebook.github.io/jest/): For testing our components
+- [Jest](https://facebook.github.io/jest/) & ~~[React Testing Library](https://testing-library.com/)~~  : For testing our components
 - Support for [TypeScript](https://www.typescriptlang.org/)
 - Sourcemap creation
-- Support of CSS: For exporting components with style
-- Storybook: For testing our components within the library itself as we design them
-- Supports complicated peer-dependencies
+- Support of CSS/SASS: For exporting components with style
+- [Storybook](https://storybook.js.org/): For testing our components within the library itself as we design them
+- Supports complicated peer-dependencies (example here is [Antd](https://ant.design/) so here the power of rollup-plugin-peer-deps-external we can use complicated peer dependency such Antd without having it bundled as a part of your module.)
 - Optimizing bundle size: [@rollup/plugin-terser](https://www.npmjs.com/package/@rollup/plugin-terser) A Rollup plugin to generate a minified bundle with terser.
 - Automatically externalize peerDependencies in a rollup bundle, thanks to [rollup-plugin-peer-deps-external](https://www.npmjs.com/package/rollup-plugin-peer-deps-external)
 
