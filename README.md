@@ -1,6 +1,6 @@
-# rollup-react-library-starter
+# React component library template/boilerplate
 
-Template and quick-starter to create your own modern React libraries using Rollup. 
+Template and quick-starter to create your own modern React library includes awesome features and bandled using Rollup. 
 
 *Note: At date of writing this (April 2023), since the [create-react-library](https://github.com/transitive-bullshit/create-react-library) tool is no longer actively maintained (https://github.com/transitive-bullshit/create-react-library#readme) then I thought about creating this boilerplate to help bootstrap a modern react library with some nice features*
 
@@ -20,7 +20,7 @@ Template and quick-starter to create your own modern React libraries using Rollu
 - Supports complicated peer-dependencies (example here is [Antd](https://ant.design/) so here the power of rollup-plugin-peer-deps-external we can use complicated peer dependency such Antd without having it bundled as a part of your module.)
 - Optimizing bundle size: [@rollup/plugin-terser](https://www.npmjs.com/package/@rollup/plugin-terser) A Rollup plugin to generate a minified bundle with terser.
 - Automatically externalize peerDependencies in a rollup bundle, thanks to [rollup-plugin-peer-deps-external](https://www.npmjs.com/package/rollup-plugin-peer-deps-external)
-
+- Eslint
 ## Getting started
 
 - Copy over the template by cloning this repository and install its dependencies:
@@ -54,6 +54,7 @@ Now, anytime you make a change to your library in `src/` or to the example app's
 - `npm run build` : builds the library to `dist`
 - `npm run dev`  : builds the library, then keeps rebuilding it whenever the source files change.
 - `npm test` : tests the library and show the coverage.
+- `npm run lint` : runs eslint.
 - `npm run storybook` : runs the host Storybook application locally for quick and easy testing
 - `npm run build-storybook` : builds a static HTML/JS bundle that can easily be hosted on a remote server, so all members of your team can try your components.
 
