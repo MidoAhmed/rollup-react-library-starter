@@ -5,7 +5,7 @@ Template and quick-starter to create your own modern React library includes awes
 *Note: At date of writing this (April 2023), since the [create-react-library](https://github.com/transitive-bullshit/create-react-library) tool is no longer actively maintained (https://github.com/transitive-bullshit/create-react-library#readme) then I thought about creating this boilerplate to help bootstrap a modern react library with some nice features*
 
 ## Note
-*This is a repository created for:*
+*This repository created for:*
 1. Help people to bootstrap thier own react library with some nice features/best practices and 
 without bothering with configuration and saving time.
 2. Learning purposes (especially how to bundle complicated things with Rollup). 
@@ -53,8 +53,6 @@ Now, anytime you make a change to your library or the stories, the storybook wil
         ```bash
         npm run dev # runs rollup with watch flag
         ```
-
-Now, anytime you make a change to your library in `src/` or to the example app's `example/src`, `create-react-app` will live-reload your local dev server so you can iterate on your component in real-time.
 
 ### Scripts:
 - `npm run build` : builds the library to `dist`
