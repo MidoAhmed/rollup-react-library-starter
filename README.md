@@ -62,7 +62,7 @@ Now, anytime you make a change to your library or the stories, the storybook wil
 - `npm run lint` : runs eslint.
 - `npm run storybook` : runs the host Storybook application locally for quick and easy testing
 - `npm run build-storybook` : builds a static HTML/JS bundle that can easily be hosted on a remote server, so all members of your team can try your components.
-- `npm run deploy-storybook` : build & deploy and Storybook to GitHub Pages
+- `npm run deploy-storybook` : build & deploy the storybook to GitHub Pages
 
 ### Publishing to npm:
 publish to GitHub Packages registry:
