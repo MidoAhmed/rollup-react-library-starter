@@ -6,7 +6,7 @@ Template and quick-starter to create your own modern React library includes awes
 
 ## Note
 *This repository created for:*
-1. Help people to bootstrap thier own react library with some nice features/best practices and 
+1. Help to bootstrap your own react library with some nice features and 
 without bothering with configuration and saving time.
 2. Learning purposes (especially how to bundle complicated things with Rollup). 
 
