@@ -12,7 +12,7 @@ Template and quick-starter to create your own modern React libraries using Rollu
 ## Features
 - [Rollup](https://rollupjs.org/) for bundling
 - Bundles `commonjs` and `es` module formats
-- [Jest](https://facebook.github.io/jest/) & ~~[React Testing Library](https://testing-library.com/)~~  : For testing our components
+- [Jest](https://facebook.github.io/jest/) & [React Testing Library](https://testing-library.com/)  : For testing our components
 - Support for [TypeScript](https://www.typescriptlang.org/)
 - Sourcemap creation
 - Support of CSS/SASS: For exporting components with style
