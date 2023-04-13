@@ -15,6 +15,9 @@ without bothering with configuration and saving time.
 
 *As mentioned in [readme of create-react-library](https://github.com/transitive-bullshit/create-react-library#readme) there are some others tools(you can use it as a bundler) as an alternative to Rollup like [tsup](https://github.com/egoist/tsup), [tsdx](https://github.com/jaredpalmer/tsdx), or [microbundle](https://github.com/developit/microbundle).*
 
+see also this artice https://transitivebullsh.it/javascript-dev-tools-in-2022#823feddaa1bb4edea19042852b0a5b54
+
+
 ## Features
 - [Rollup](https://rollupjs.org/) for bundling
 - Bundles `commonjs` and `es` module formats
